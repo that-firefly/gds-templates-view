@@ -15957,7 +15957,13 @@ x:-moz-any-link {
 }
 
 .govuk-summary-list {
-  list-style-type: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+li {
+  border-bottom: 1px solid black !important;
+  padding-bottom: 15px  !important;
 }
 
 .govuk-prototype-kit-task-list__section {
@@ -15988,9 +15994,6 @@ a:hover, .govuk-link:hover {
   color: #003078;
 }
 
-li {
-  border-bottom: 1px solid black;
-  padding-bottom: 15px;
-}
+
 
 
