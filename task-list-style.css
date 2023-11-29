@@ -15959,11 +15959,13 @@ x:-moz-any-link {
 .govuk-summary-list {
   border-bottom: 1px solid black;
   padding-bottom: 15px;
+  list-style-type: block !important;
 }
 
 li {
   border-bottom: 1px solid black !important;
   padding-bottom: 15px  !important;
+  list-style-type: block !important;
 }
 
 .govuk-prototype-kit-task-list__section {
