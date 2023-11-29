@@ -15988,4 +15988,9 @@ a:hover, .govuk-link:hover {
   color: #003078;
 }
 
+li {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
 
