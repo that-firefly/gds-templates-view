@@ -96,76 +96,65 @@
 
 
                         <h1 class="govuk-heading-xl">
-                            Materials Recovery Facilities Return Form
+                            Enter date of return
                         </h1>
 
-                        <p class="govuk-body govuk-!-margin-bottom-7">Get more info on <a herf="" title="">some link</a>
-                        </p>
+                        <details class="govuk-details" data-module="govuk-details">
+                            <summary class="govuk-details__summary">
+                                <span class="govuk-details__summary-text">
+                                    Get more information about returning periods
+                                </span>
+                            </summary>
+                            <div class="govuk-details__text">
+                                Lorem ipsum lorem ipsum lorem ipsum some info here
+                            </div>
+                        </details>
 
-                        <h2 class="govuk-heading-s govuk-!-margin-bottom-2">Application incomplete</h2>
-                        <p class="govuk-body govuk-!-margin-bottom-7">You have completed 0 of X sections.</p>
                         <div class="govuk-width-container ">
-
-                            <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing" id="main-content"
-                                role="main">
-                                <div class="govuk-grid-row">
-                                    <div class="govuk-grid-column-two-thirds">
-                                        <h1 class="govuk-heading-l">
+                            <div class="govuk-form-group">
+                                <fieldset class="govuk-fieldset" role="group" aria-describedby="passport-issued-hint">
+                                    <div id="passport-issued-hint" class="govuk-hint">
+                                        For example, 27 3 2007
+                                    </div>
+                                    <div class="govuk-date-input" id="passport-issued">
+                                        <div class="govuk-date-input__item">
                                             <div class="govuk-form-group">
-                                                <fieldset class="govuk-fieldset" role="group"
-                                                    aria-describedby="passport-issued-hint">
-                                                    <legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
-                                                        <h1 class="govuk-fieldset__heading">
-                                                            When was your passport issued?
-                                                        </h1>
-                                                    </legend>
-                                                    <div id="passport-issued-hint" class="govuk-hint">
-                                                        For example, 27 3 2007
-                                                    </div>
-                                                    <div class="govuk-date-input" id="passport-issued">
-                                                        <div class="govuk-date-input__item">
-                                                            <div class="govuk-form-group">
-                                                                <label class="govuk-label govuk-date-input__label"
-                                                                    for="passport-issued-day">
-                                                                    Day
-                                                                </label>
-                                                                <input
-                                                                    class="govuk-input govuk-date-input__input govuk-input--width-2"
-                                                                    id="passport-issued-day" name="passport-issued-day"
-                                                                    type="text" inputmode="numeric">
-                                                            </div>
-                                                        </div>
-                                                        <div class="govuk-date-input__item">
-                                                            <div class="govuk-form-group">
-                                                                <label class="govuk-label govuk-date-input__label"
-                                                                    for="passport-issued-month">
-                                                                    Month
-                                                                </label>
-                                                                <input
-                                                                    class="govuk-input govuk-date-input__input govuk-input--width-2"
-                                                                    id="passport-issued-month"
-                                                                    name="passport-issued-month" type="text"
-                                                                    inputmode="numeric">
-                                                            </div>
-                                                        </div>
-                                                        <div class="govuk-date-input__item">
-                                                            <div class="govuk-form-group">
-                                                                <label class="govuk-label govuk-date-input__label"
-                                                                    for="passport-issued-year">
-                                                                    Year
-                                                                </label>
-                                                                <input
-                                                                    class="govuk-input govuk-date-input__input govuk-input--width-4"
-                                                                    id="passport-issued-year"
-                                                                    name="passport-issued-year" type="text"
-                                                                    inputmode="numeric">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </fieldset>
+                                                <label class="govuk-label govuk-date-input__label"
+                                                    for="passport-issued-day">
+                                                    Day
+                                                </label>
+                                                <input class="govuk-input govuk-date-input__input govuk-input--width-2"
+                                                    id="passport-issued-day" name="passport-issued-day" type="text"
+                                                    inputmode="numeric">
                                             </div>
-                                        </h1>
-                            </main>
+                                        </div>
+                                        <div class="govuk-date-input__item">
+                                            <div class="govuk-form-group">
+                                                <label class="govuk-label govuk-date-input__label"
+                                                    for="passport-issued-month">
+                                                    Month
+                                                </label>
+                                                <input class="govuk-input govuk-date-input__input govuk-input--width-2"
+                                                    id="passport-issued-month" name="passport-issued-month" type="text"
+                                                    inputmode="numeric">
+                                            </div>
+                                        </div>
+                                        <div class="govuk-date-input__item">
+                                            <div class="govuk-form-group">
+                                                <label class="govuk-label govuk-date-input__label"
+                                                    for="passport-issued-year">
+                                                    Year
+                                                </label>
+                                                <input class="govuk-input govuk-date-input__input govuk-input--width-4"
+                                                    id="passport-issued-year" name="passport-issued-year" type="text"
+                                                    inputmode="numeric">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+
+
 
                         </div>
 
@@ -241,12 +230,16 @@
     </main>
 
     <div class="govuk-button-group">
+        <a href="#" title="#"></a>
         <button class="govuk-button" data-module="govuk-button">
             Continue
         </button>
-        <button class="govuk-button govuk-button--secondary" data-module="govuk-button">
-            Back to previous page
-        </button>
+        </a>
+        <a href="task-list-1.html" title="Back to task list">
+            <button class="govuk-button govuk-button--secondary" data-module="govuk-button">
+                Back to previous page
+            </button>
+        </a>
     </div>
 
 </div>
