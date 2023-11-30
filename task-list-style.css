@@ -15991,7 +15991,7 @@ a:hover, .govuk-link:hover {
 
 /* Buttons with a link - fixing it  */
 
-.govuk-button.govuk-button--secondary {
+.govuk-button.govuk-button--secondary, .govuk-button {
   position: relative;
   bottom: 10px;
 }
